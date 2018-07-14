@@ -1,0 +1,8 @@
+<!-- Starts up everything needed to run the example listener/talker Python nodes. -->
+
+<launch>
+  <node pkg="slam_tf_buffer" type="slam_tf_buffer.py" name="slam_tf_buffer">
+    <param name="rate" value="20"/>
+  </node>
+
+</launch>
